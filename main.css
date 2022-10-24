@@ -149,12 +149,15 @@
   padding: 1.5rem 2rem;
 }
 
-.card--bg-primary {
+.card--bg-white {
   background-color: #fff;
 }
 
 .card--border {
   border-radius: 0.3rem;
+}
+.card--noBorder {
+  padding: 0;
 }
 
 .card__header {
@@ -166,7 +169,6 @@
 .card__title {
   font-weight: 700;
   font-size: 0.8rem;
-  /* line-height: 1.5rem; */
   letter-spacing: 0.1px;
   color: #252b42;
 }
@@ -183,6 +185,9 @@
   color: #737373;
 }
 
+.card__content--center {
+  text-align: center;
+}
 .card__profile {
   display: flex;
   gap: 0.5rem;
@@ -201,6 +206,11 @@
   color: #252b42;
 }
 
+.card__role--second {
+  padding: 0.5rem 0;
+  color: #737373;
+}
+
 .card__star {
   width: 90px;
 }
@@ -208,11 +218,21 @@
 .card__star img {
   width: 100%;
 }
+
+.card__media {
+  margin-bottom: 2rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+.card__media img {
+  width: 18px;
+}
 /* starting of services */
 
 .services {
   background-color: #fafafa;
-  padding: 5rem 0;
+  padding: 3rem 0;
 }
 
 .services__container {
@@ -306,4 +326,34 @@
   display: flex;
   gap: 1.5rem;
   flex-wrap: wrap;
+}
+
+/* starting of team */
+.team {
+  max-width: 75vw;
+  margin: 5rem auto;
+}
+
+.team__title {
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 3rem;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #252b42;
+}
+.team__description {
+  margin: 1rem 0;
+  margin-bottom: 5rem;
+  font-weight: 400;
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
+.team__card {
+  display: flex;
+  gap: 2rem;
 }
