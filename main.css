@@ -68,15 +68,16 @@
 
 .showcase__title {
   font-weight: 700;
-  font-size: 3.3rem;
-  line-height: 80px;
+  font-size: 3.2rem;
+  line-height: 4.6rem;
   color: #252b42;
 }
 .showcase__description {
   margin: 2rem 0;
   font-weight: 400;
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 1.8rem;
+  letter-spacing: 0.2px;
   color: #737373;
 }
 
@@ -87,12 +88,12 @@
 }
 
 .btn {
-  padding: 0.6rem 2.2rem;
+  padding: 0.5rem 2.2rem;
   border: none;
   border-radius: 50px;
   background-color: white;
   font-weight: 700;
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   line-height: 1.7rem;
   cursor: pointer;
 }
@@ -104,4 +105,65 @@
 .btn--border {
   border: 1px solid #00a0c1;
   color: #00a0c1;
+}
+
+/*starting of the choose us */
+
+.choose {
+  max-width: 75vw;
+  margin: 8rem auto;
+}
+
+.choose__title {
+  font-weight: 700;
+  font-size: 2.2rem;
+  line-height: 3.5rem;
+  color: #252b42;
+  text-align: center;
+}
+
+.choose__description {
+  margin: 1rem 0;
+  font-weight: 500;
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  color: #737373;
+  text-align: center;
+}
+
+.choose__card {
+  margin: 2rem 0;
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex-basis: 300px;
+  flex-grow: 1;
+  padding: 35px 40px;
+  border: 1px solid #e8e8e8;
+}
+
+.card__header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.card__title {
+  font-weight: 700;
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.1px;
+  color: #252b42;
+}
+
+.card__content {
+  margin-top: 1rem;
+  font-weight: 500;
+  font-size: 0.7rem;
+  line-height: 1.2rem;
+  letter-spacing: 0.2px;
+  color: #737373;
 }
