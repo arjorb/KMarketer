@@ -107,6 +107,15 @@
   color: #00a0c1;
 }
 
+.btn--appointment {
+  border-radius: 0.3rem;
+  padding: 1rem 3rem;
+}
+.btn--contact {
+  border-radius: 0.3rem;
+  padding: 0.8rem 2.5rem;
+}
+
 /*starting of the choose us */
 
 .choose {
@@ -228,6 +237,7 @@
 .card__media img {
   width: 18px;
 }
+
 /* starting of services */
 
 .services {
@@ -329,8 +339,9 @@
 }
 
 /* starting of team */
+
 .team {
-  max-width: 75vw;
+  max-width: 80vw;
   margin: 5rem auto;
 }
 
@@ -356,4 +367,197 @@
 .team__card {
   display: flex;
   gap: 2rem;
+}
+
+/* starting of the appointment */
+
+.appointment {
+  background-image: url('assets/Background.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+}
+
+.appointment__container {
+  max-width: 80vw;
+  margin: 0 auto;
+  padding: 5rem 0;
+}
+.appointment__title {
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.4rem;
+  letter-spacing: 0.1px;
+  color: #252b42;
+}
+
+.appointment__heading {
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+  letter-spacing: 0.2px;
+  color: #252b42;
+}
+
+.appointment__form {
+  margin: 2rem 0;
+  max-width: 500px;
+}
+.appointment__group {
+  display: flex;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.appointment__input {
+  width: 100%;
+  height: 40px;
+  border-radius: 0.3rem;
+  background: #f9f9f9;
+  border: 1px solid #bdbdbd;
+  outline: none;
+  padding: 0 0.5rem;
+  color: #adabab;
+  font-weight: 500;
+}
+
+.appointment__textarea {
+  width: 100%;
+  height: 150px;
+  border-radius: 0.3rem;
+  background: #f9f9f9;
+  border: 1px solid #bdbdbd;
+  outline: none;
+  resize: none;
+  font-weight: 500;
+  padding: 1rem 0.5rem;
+  color: #adabab;
+}
+
+/* starting of the call of action  */
+.cta {
+  max-width: 80vw;
+  margin: 0 auto;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cta__title {
+  font-weight: 700;
+  font-size: 1.3rem;
+  line-height: 2rem;
+  letter-spacing: 0.1px;
+  color: #252b42;
+}
+.cta__description {
+  font-weight: 500;
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
+/* starting of the footer */
+.footer {
+  background-color: #252b42;
+}
+.footer__container {
+  max-width: 80vw;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.footer__upper {
+  padding: 3rem 0;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #364067;
+}
+
+.footer__logo {
+  font-weight: 700;
+  font-size: 1.3rem;
+  line-height: 2rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+.footer__media {
+  display: flex;
+  gap: 0.5rem;
+  padding-right: 1rem;
+}
+
+.footer__social {
+  max-width: 20px;
+}
+
+.footer__down {
+  padding: 3rem 0;
+  display: flex;
+  gap: 4rem;
+}
+
+.footer_title {
+  color: white;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.footer__links {
+  list-style: none;
+}
+
+.footer__link {
+  font-weight: 600;
+  font-size: 0.8rem;
+  line-height: 2rem;
+  letter-spacing: 0.2px;
+  color: #bdbdbd;
+}
+
+.footer__form {
+  display: flex;
+  background-color: #fff;
+  border-radius: 0.3rem;
+  overflow: hidden;
+}
+.footer__input {
+  width: 180px;
+  outline: none;
+  border: none;
+  padding: 0 1rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #bdbdbd;
+}
+
+.footer__span {
+  margin-top: 0.5rem;
+  font-size: 0.7rem;
+  color: #bdbdbd;
+}
+
+/* starting of copyright */
+
+.copyright {
+  background-color: #16697a;
+  padding: 1.2rem 0;
+}
+
+.copyright__container {
+  max-width: 80vw;
+  margin: 0 auto;
+}
+
+.copyright__title {
+  font-weight: 500;
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.2px;
+  color: #ffffff;
 }
