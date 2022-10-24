@@ -145,6 +145,18 @@
   border: 1px solid #e8e8e8;
 }
 
+.card--small {
+  padding: 1.5rem 2rem;
+}
+
+.card--bg-primary {
+  background-color: #fff;
+}
+
+.card--border {
+  border-radius: 0.3rem;
+}
+
 .card__header {
   display: flex;
   align-items: center;
@@ -154,11 +166,14 @@
 .card__title {
   font-weight: 700;
   font-size: 0.8rem;
-  line-height: 1.5rem;
+  /* line-height: 1.5rem; */
   letter-spacing: 0.1px;
   color: #252b42;
 }
 
+.card__title--primary {
+  color: #ffa62b;
+}
 .card__content {
   margin-top: 1rem;
   font-weight: 500;
@@ -168,6 +183,31 @@
   color: #737373;
 }
 
+.card__profile {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.card__profile img {
+  max-width: 40px;
+  height: 40px;
+}
+.card__role {
+  font-weight: 500;
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.2px;
+  color: #252b42;
+}
+
+.card__star {
+  width: 90px;
+}
+
+.card__star img {
+  width: 100%;
+}
 /* starting of services */
 
 .services {
@@ -175,7 +215,7 @@
   padding: 5rem 0;
 }
 
-.services__upper {
+.services__container {
   max-width: 75vw;
   margin: 3rem auto;
   position: relative;
@@ -223,8 +263,47 @@
   max-width: 80px;
 }
 
-.services__down {
-  height: 360px;
+.services__darkGreen {
+  height: 370px;
   background-color: #05353c;
   margin-top: -22rem;
+}
+
+/* starting of clients */
+
+.client {
+  background-color: #fafafa;
+  padding: 1rem 0;
+}
+
+.client__container {
+  max-width: 75vw;
+  margin: 0 auto;
+}
+
+.client__title {
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 3rem;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #252b42;
+}
+
+.client__description {
+  margin: 1rem 0;
+  margin-bottom: 5rem;
+  font-weight: 400;
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
+.client__card {
+  margin: 2rem 0;
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
 }
